@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>MyCRM Trip Sorter</title>
+    <link href="http://fonts.googleapis.com/css?family=Nunito:100,400" rel="stylesheet" type="text/css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <fieldset>
+            <legend>From :</legend>
+            <select id="start"></select>
+        </fieldset>
+        <fieldset>
+            <legend>To :</legend>
+            <select id="end"></select>
+        </fieldset>
+        <label>
+            Cheapest
+            <input id="key" type="checkbox">
+            <i></i>
+            Fastest
+        </label>
+    </header>
+    <main>
+        <div id="results"></div>
+    </main>
+    <footer>
+        TOTAL
+        <span id="totalTime">00:00</span>
+        <span>
+            <p id="totalPrice">0000</p>
+            <p id="currency">CUR</p>
+        </span>
+    </footer>
+</body>
+<script type="text/javascript" src="scripts/script.js"></script>
+
+</html>
